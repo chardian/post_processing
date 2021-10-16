@@ -1,0 +1,2287 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.13f1c1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/zhaqijie/Documents/my_git/post_processing/client
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51484
+Successfully changed project path to: /Users/zhaqijie/Documents/my_git/post_processing/client
+/Users/zhaqijie/Documents/my_git/post_processing/client
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 28.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.13f1c1 (93b9df9a3ddc)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.13f1c1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/zhaqijie/Documents/my_git/post_processing/client/Assets
+GfxDevice: creating device client; threaded=0
+2021-10-17 00:53:22.034 Unity[8216:300606] (null) preferred device: Apple M1 (high power)
+2021-10-17 00:53:22.034 Unity[8216:300606] Metal devices available: 1
+2021-10-17 00:53:22.034 Unity[8216:300606] 0: Apple M1 (high power)
+2021-10-17 00:53:22.034 Unity[8216:300606] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.13f1c1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.13f1c1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.13f1c1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56216
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.13f1c1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002269 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 25.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.622 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002638 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.217 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.13f1c1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.1 MB.
+System memory in use after: 137.1 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1825.
+Total: 1.385042 ms (FindLiveObjects: 0.113208 ms CreateObjectMapping: 0.025084 ms MarkObjects: 1.165917 ms  DeleteObjects: 0.080000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/RPG Monster Wave Polyart/SRP/RPG Monster Wave Polyart HD.zip
+  artifactKey: Guid(814fdb18d02b5fc42aadaac651eb9a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/SRP/RPG Monster Wave Polyart HD.zip using Guid(814fdb18d02b5fc42aadaac651eb9a1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd237bfffc7845a318fc768ade168f871') in 0.912048 seconds 
+  Import took 0.913831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/RPG Monster Wave Polyart/SRP/RPG Monster Wave Polyart LW.zip
+  artifactKey: Guid(0bb81db41d745634a8da543f7ffb3f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/SRP/RPG Monster Wave Polyart LW.zip using Guid(0bb81db41d745634a8da543f7ffb3f04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2b3bcc48407b1065cabfb98da9eb032') in 0.002671 seconds 
+  Import took 0.004051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.665684 seconds.
+  path: Assets/RPG Monster Wave Polyart/Scenes/PolyartDefault.unity
+  artifactKey: Guid(82d5de9bf0818c040bc50b0c6e1b7075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Scenes/PolyartDefault.unity using Guid(82d5de9bf0818c040bc50b0c6e1b7075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5fc0bde6fdeb65d546e90bf71d838f') in 0.001991 seconds 
+  Import took 0.004678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005225 seconds.
+  path: Assets/RPG Monster Wave Polyart/Scenes/PolyartDefault.unity
+  artifactKey: Guid(82d5de9bf0818c040bc50b0c6e1b7075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Scenes/PolyartDefault.unity using Guid(82d5de9bf0818c040bc50b0c6e1b7075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5fc0bde6fdeb65d546e90bf71d838f') in 0.001151 seconds 
+  Import took 0.003309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.805613 seconds.
+  path: Assets/RPG Monster Wave Polyart/Scenes/PolyartMaskTint01.unity
+  artifactKey: Guid(ac6fda847cb9cf54ca4f6f20b086b671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Scenes/PolyartMaskTint01.unity using Guid(ac6fda847cb9cf54ca4f6f20b086b671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2541e7d44d923a5ecf93ab54afe836f7') in 0.002141 seconds 
+  Import took 0.004981 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001075 seconds.
+  path: Assets/RPG Monster Wave Polyart/Scenes/PolyartMaskTint01.unity
+  artifactKey: Guid(ac6fda847cb9cf54ca4f6f20b086b671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Scenes/PolyartMaskTint01.unity using Guid(ac6fda847cb9cf54ca4f6f20b086b671) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2541e7d44d923a5ecf93ab54afe836f7') in 0.001216 seconds 
+  Import took 0.003431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.508288 seconds.
+  path: Assets/RPG Monster Wave Polyart/Scenes/PolyartMaskTint02.unity
+  artifactKey: Guid(088452755a793bc47a30abf5d83302f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Scenes/PolyartMaskTint02.unity using Guid(088452755a793bc47a30abf5d83302f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d515827ce4fd04ba9103c6413ce6f7') in 0.003042 seconds 
+  Import took 0.006282 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001899 seconds.
+  path: Assets/RPG Monster Wave Polyart/Scenes/PolyartMaskTint02.unity
+  artifactKey: Guid(088452755a793bc47a30abf5d83302f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Scenes/PolyartMaskTint02.unity using Guid(088452755a793bc47a30abf5d83302f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d515827ce4fd04ba9103c6413ce6f7') in 0.001151 seconds 
+  Import took 0.003484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.121132 seconds.
+  path: Assets/RPG Monster Wave Polyart/Scenes/PolyartMaskTint03.unity
+  artifactKey: Guid(8431d19cf8e0eb440abfb44cfa663818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Scenes/PolyartMaskTint03.unity using Guid(8431d19cf8e0eb440abfb44cfa663818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a51c5c3af433466d2b6c40403e5fbd5') in 0.002680 seconds 
+  Import took 0.005514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/RPG Monster Wave Polyart/Scenes/PolyartMaskTint03.unity
+  artifactKey: Guid(8431d19cf8e0eb440abfb44cfa663818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Scenes/PolyartMaskTint03.unity using Guid(8431d19cf8e0eb440abfb44cfa663818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a51c5c3af433466d2b6c40403e5fbd5') in 0.001171 seconds 
+  Import took 0.003440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.287984 seconds.
+  path: Assets/RPG Monster Wave Polyart/Prefabs/PolyartDefault/Bat.prefab
+  artifactKey: Guid(2e4ab17be462ca346983757421a25d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Prefabs/PolyartDefault/Bat.prefab using Guid(2e4ab17be462ca346983757421a25d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '698ce1f497b21adaf235d7f1c21a5bf5') in 1.214598 seconds 
+  Import took 1.218093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/RPG Monster Wave Polyart/Prefabs/PolyartDefault/Slime.prefab
+  artifactKey: Guid(088f4e1cc85df8b4497a1a291d108317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Prefabs/PolyartDefault/Slime.prefab using Guid(088f4e1cc85df8b4497a1a291d108317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea7152b1b6ef8bff90d38226f25f40f1') in 0.047230 seconds 
+  Import took 0.049266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/RPG Monster Wave Polyart/Prefabs/PolyartDefault/Orc.prefab
+  artifactKey: Guid(b603af86ac880d246a16780f2c468564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Prefabs/PolyartDefault/Orc.prefab using Guid(b603af86ac880d246a16780f2c468564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b767b546e3ed406225af7ca9958e0e2') in 0.064129 seconds 
+  Import took 0.066986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000299 seconds.
+  path: Assets/RPG Monster Wave Polyart/Prefabs/PolyartDefault/MonsterPlant.prefab
+  artifactKey: Guid(30443ab5b6a78ea4899ca1d13e2e8e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Prefabs/PolyartDefault/MonsterPlant.prefab using Guid(30443ab5b6a78ea4899ca1d13e2e8e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a14fac2d4a37afa2245ad1bd3e4a78') in 0.030459 seconds 
+  Import took 0.033043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/RPG Monster Wave Polyart/Prefabs/PolyartDefault/TurtleShell.prefab
+  artifactKey: Guid(ae2b11c016c0767429e281e057eda079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Prefabs/PolyartDefault/TurtleShell.prefab using Guid(ae2b11c016c0767429e281e057eda079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '760d8c0ba602a29952364e29822ff91e') in 0.023608 seconds 
+  Import took 0.025982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/RPG Monster Wave Polyart/Prefabs/PolyartDefault/Spider.prefab
+  artifactKey: Guid(dcda32f024ad4be4fac00e3568966e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Prefabs/PolyartDefault/Spider.prefab using Guid(dcda32f024ad4be4fac00e3568966e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0547cce70ea979363cc488aea4d0ee') in 0.029559 seconds 
+  Import took 0.032046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/RPG Monster Wave Polyart/Prefabs/PolyartDefault/Dragon.prefab
+  artifactKey: Guid(a6a7306b6e22e6c4fb178b6e77ca24d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Prefabs/PolyartDefault/Dragon.prefab using Guid(a6a7306b6e22e6c4fb178b6e77ca24d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba80e0fed45f9a313ca13cb336349a5') in 0.030985 seconds 
+  Import took 0.033545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/RPG Monster Wave Polyart/Prefabs/PolyartDefault/Skeleton.prefab
+  artifactKey: Guid(cb598c38dddcdda49a7c3b18e90f08b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Prefabs/PolyartDefault/Skeleton.prefab using Guid(cb598c38dddcdda49a7c3b18e90f08b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da004cdf0b6a1dc58c0614be40bc688b') in 0.039133 seconds 
+  Import took 0.042021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/RPG Monster Wave Polyart/Prefabs/PolyartDefault/EvilMage.prefab
+  artifactKey: Guid(c96ba90c5361e27459e32a2ee29da85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Prefabs/PolyartDefault/EvilMage.prefab using Guid(c96ba90c5361e27459e32a2ee29da85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02057d4d2738c5cc6f74c33c387b0ab6') in 0.026237 seconds 
+  Import took 0.028828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/RPG Monster Wave Polyart/Prefabs/PolyartDefault/Golem.prefab
+  artifactKey: Guid(642da47e7eb2d1d46b95a788e3632619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Prefabs/PolyartDefault/Golem.prefab using Guid(642da47e7eb2d1d46b95a788e3632619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '091516b884dc1bb21470e8221562ef57') in 0.030604 seconds 
+  Import took 0.033154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.302773 seconds.
+  path: Assets/RPG Monster Wave Polyart/Prefabs/PolyartMaskTint/BatMaskTint.prefab
+  artifactKey: Guid(2e916c02e40b5a74cabdbf99d3893190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Prefabs/PolyartMaskTint/BatMaskTint.prefab using Guid(2e916c02e40b5a74cabdbf99d3893190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145995864e5f284043798473c7b2d9c0') in 0.277777 seconds 
+  Import took 0.280494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/RPG Monster Wave Polyart/Prefabs/PolyartMaskTint/TurtleShellMaskTint.prefab
+  artifactKey: Guid(1c83c2db0efa5244199a5b921cc663c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Prefabs/PolyartMaskTint/TurtleShellMaskTint.prefab using Guid(1c83c2db0efa5244199a5b921cc663c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a601c96d38b984acbe5adede3c49d40') in 0.030046 seconds 
+  Import took 0.032436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/RPG Monster Wave Polyart/Prefabs/PolyartMaskTint/GolemMaskTint.prefab
+  artifactKey: Guid(50c82efd170b0154da32b606a7deee63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Prefabs/PolyartMaskTint/GolemMaskTint.prefab using Guid(50c82efd170b0154da32b606a7deee63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff06bace122e3efa5d7b5b643f1e3a3b') in 0.027946 seconds 
+  Import took 0.030361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/RPG Monster Wave Polyart/Prefabs/PolyartMaskTint/SlimeMaskTint.prefab
+  artifactKey: Guid(b8234fb24ad058442b85391987d48735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Prefabs/PolyartMaskTint/SlimeMaskTint.prefab using Guid(b8234fb24ad058442b85391987d48735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a812493d40e9bac83f565fd391894f') in 0.019549 seconds 
+  Import took 0.021541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/RPG Monster Wave Polyart/Prefabs/PolyartMaskTint/EvilMageMaskTint.prefab
+  artifactKey: Guid(e2141564cfb34a2478c914d2d9b029bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Prefabs/PolyartMaskTint/EvilMageMaskTint.prefab using Guid(e2141564cfb34a2478c914d2d9b029bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21abdff5762226b12fb33fd396ba797f') in 0.030076 seconds 
+  Import took 0.032858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/RPG Monster Wave Polyart/Prefabs/PolyartMaskTint/DragonMaskTint.prefab
+  artifactKey: Guid(1727faad0b4d6e94092864ea10425d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Prefabs/PolyartMaskTint/DragonMaskTint.prefab using Guid(1727faad0b4d6e94092864ea10425d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1718a490a7c4c06b7d109a60bdc79457') in 0.025429 seconds 
+  Import took 0.027900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000394 seconds.
+  path: Assets/RPG Monster Wave Polyart/Prefabs/PolyartMaskTint/MonsterPlantMaskTint.prefab
+  artifactKey: Guid(49a7d3f3222a1044c989df21bb9db610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Prefabs/PolyartMaskTint/MonsterPlantMaskTint.prefab using Guid(49a7d3f3222a1044c989df21bb9db610) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cab427bd081c5dadf078b5742d7accd') in 0.025957 seconds 
+  Import took 0.028327 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/RPG Monster Wave Polyart/Prefabs/PolyartMaskTint/OrcMaskTint.prefab
+  artifactKey: Guid(11d9f2192c3e54847ad2e21e34453cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Prefabs/PolyartMaskTint/OrcMaskTint.prefab using Guid(11d9f2192c3e54847ad2e21e34453cd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ab8a8c068f525e0bafdb051e7c2530c') in 0.034699 seconds 
+  Import took 0.038315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/RPG Monster Wave Polyart/Prefabs/PolyartMaskTint/SkeletonMaskTint.prefab
+  artifactKey: Guid(7dc613ee4e0c75b4ea8f2d2c508d7439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Prefabs/PolyartMaskTint/SkeletonMaskTint.prefab using Guid(7dc613ee4e0c75b4ea8f2d2c508d7439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f3da6e9ed9849bfc36e6fef12d3aa2d') in 0.033375 seconds 
+  Import took 0.036090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.233932 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Golem/Attack01_Golem_Anim.fbx
+  artifactKey: Guid(2ef6cb7532e592941815ddab649c1787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Golem/Attack01_Golem_Anim.fbx using Guid(2ef6cb7532e592941815ddab649c1787) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeec528a0db1a3db503015740d015c19') in 0.304203 seconds 
+  Import took 0.308831 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Golem/Dizzy_Golem_Anim.fbx
+  artifactKey: Guid(dcad0cbdc434c8247bb2d6a568aaba2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Golem/Dizzy_Golem_Anim.fbx using Guid(dcad0cbdc434c8247bb2d6a568aaba2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58c5298aee0e740f6f180e62e06d996a') in 0.023029 seconds 
+  Import took 0.026142 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000324 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Golem/Attack02_Golem_Anim.fbx
+  artifactKey: Guid(014713eb1e7756d47b218c3f15bf75cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Golem/Attack02_Golem_Anim.fbx using Guid(014713eb1e7756d47b218c3f15bf75cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80343b11afcc40d62988d19ed8c5faa2') in 0.029867 seconds 
+  Import took 0.031611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Golem/Run_Golem_Anim.fbx
+  artifactKey: Guid(0e1476d94e9b83d499f31d90126a46f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Golem/Run_Golem_Anim.fbx using Guid(0e1476d94e9b83d499f31d90126a46f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ff2722a3d7dfdb220cea6b59a86d2f1') in 0.022012 seconds 
+  Import took 0.023738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000283 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Golem/WalkBack_Golem_Anim.fbx
+  artifactKey: Guid(7bd30b24775a7854899b85aacaaf6971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Golem/WalkBack_Golem_Anim.fbx using Guid(7bd30b24775a7854899b85aacaaf6971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05b6079a455455ff2cfc49f15011122') in 0.017811 seconds 
+  Import took 0.019543 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000308 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Golem/Die_Golem_Anim.fbx
+  artifactKey: Guid(8f9f4a1f0b241aa46a78c5812ef85dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Golem/Die_Golem_Anim.fbx using Guid(8f9f4a1f0b241aa46a78c5812ef85dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9f1640d85667a7ebfd363a0b9198fb') in 0.018686 seconds 
+  Import took 0.020338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Golem/GetHit_Golem_Anim.fbx
+  artifactKey: Guid(2dc73bdd86d07bf4fb08c2bf5342df1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Golem/GetHit_Golem_Anim.fbx using Guid(2dc73bdd86d07bf4fb08c2bf5342df1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba517470a9eb67d07325d514351cfd4') in 0.016885 seconds 
+  Import took 0.018499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Golem/IdleBattle_Golem_Anim.fbx
+  artifactKey: Guid(4e8255bf5dd0bfd46b80fc3ec321a093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Golem/IdleBattle_Golem_Anim.fbx using Guid(4e8255bf5dd0bfd46b80fc3ec321a093) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3348cd2ddc5cb7801328b396d1d1ca8d') in 0.016635 seconds 
+  Import took 0.018315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Golem/SenseSomethingRT_Golem_Anim.fbx
+  artifactKey: Guid(b88ed1d41d695384c8a1abfd631df32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Golem/SenseSomethingRT_Golem_Anim.fbx using Guid(b88ed1d41d695384c8a1abfd631df32a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211ee62715aa43b2147e88ad5ce443cb') in 0.020946 seconds 
+  Import took 0.022527 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Golem/Victory_Golem_Anim.fbx
+  artifactKey: Guid(b274e37d4dd14af40a1f79f04fcaf84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Golem/Victory_Golem_Anim.fbx using Guid(b274e37d4dd14af40a1f79f04fcaf84d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e0b366de25847727ad971ddbcf300a') in 0.016062 seconds 
+  Import took 0.017653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Golem/Walk_Golem_Anim.fbx
+  artifactKey: Guid(e33d0855ad81e984cb3ea37478248f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Golem/Walk_Golem_Anim.fbx using Guid(e33d0855ad81e984cb3ea37478248f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08d34b70efda2b0ef9972a63a52a9edc') in 0.016104 seconds 
+  Import took 0.017961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Golem/IdleNormal_Golem_Anim.fbx
+  artifactKey: Guid(39f2b9ac2a74c73439df8cd2c0c236c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Golem/IdleNormal_Golem_Anim.fbx using Guid(39f2b9ac2a74c73439df8cd2c0c236c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5da6286dee6a2531fcf0a19a015eb4f8') in 0.015854 seconds 
+  Import took 0.017698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Golem/WalkRight_Golem_Anim.fbx
+  artifactKey: Guid(69daef4bd2b3f4b4788799085d65c53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Golem/WalkRight_Golem_Anim.fbx using Guid(69daef4bd2b3f4b4788799085d65c53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21db6c64ff0e67287126b1e053a2af31') in 0.019095 seconds 
+  Import took 0.020796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Golem/Taunting_Golem_Anim.fbx
+  artifactKey: Guid(1f0ce3c5deab10d44ae24d9d32ba431f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Golem/Taunting_Golem_Anim.fbx using Guid(1f0ce3c5deab10d44ae24d9d32ba431f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2885ea84d93b80e2461d1766b5a81c57') in 0.018516 seconds 
+  Import took 0.020141 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Golem/SenseSomethingST_Golem_Anim.fbx
+  artifactKey: Guid(6ac2ea0058ae3bb4486f32aaf450f1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Golem/SenseSomethingST_Golem_Anim.fbx using Guid(6ac2ea0058ae3bb4486f32aaf450f1e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22c255903162a8f9c674e6551057837') in 0.015625 seconds 
+  Import took 0.017221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Golem/WalkLeft_Golem_Anim.fbx
+  artifactKey: Guid(5fdfa0529b4559b439c5dab2224f2a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Golem/WalkLeft_Golem_Anim.fbx using Guid(5fdfa0529b4559b439c5dab2224f2a91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db0ba82b50f1dd3d81c70c05d71b972') in 0.018931 seconds 
+  Import took 0.020539 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.415550 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Orc/Attack01_Orc_Anim.fbx
+  artifactKey: Guid(40eb9b47183826f4fa53a59d46229f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Orc/Attack01_Orc_Anim.fbx using Guid(40eb9b47183826f4fa53a59d46229f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b1d1120444790a4f41afca6a970d92e') in 0.046968 seconds 
+  Import took 0.050246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Orc/SenseSomethingST_Orc_Anim.fbx
+  artifactKey: Guid(31ec55cfbad33294e86c5739bac00adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Orc/SenseSomethingST_Orc_Anim.fbx using Guid(31ec55cfbad33294e86c5739bac00adb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861abf7ab8ec82322e5b7def7f0b1252') in 0.028077 seconds 
+  Import took 0.030113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Orc/SenseSomethingRPT_Orc_Anim.fbx
+  artifactKey: Guid(993f2b1dd62d7924b919a6bb2c45eec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Orc/SenseSomethingRPT_Orc_Anim.fbx using Guid(993f2b1dd62d7924b919a6bb2c45eec5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b07e60faef65e5226253544f8f8ed13') in 0.033569 seconds 
+  Import took 0.035303 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000364 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Orc/IdleNormal_Orc_Anim.fbx
+  artifactKey: Guid(cb46a7ff62cabd14c86dada5c6a44a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Orc/IdleNormal_Orc_Anim.fbx using Guid(cb46a7ff62cabd14c86dada5c6a44a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8a48b7a04617543e1185182d2cced8f') in 0.026100 seconds 
+  Import took 0.027777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Orc/GetHit_Orc_Anim.fbx
+  artifactKey: Guid(19b944890f99b674c89c5a40fc3e3b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Orc/GetHit_Orc_Anim.fbx using Guid(19b944890f99b674c89c5a40fc3e3b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6af0941a31bc1b30b0e16f3fe5ec9e') in 0.026865 seconds 
+  Import took 0.028491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Orc/WalkBWD_Orc_Anim.fbx
+  artifactKey: Guid(3a55b237d214b0a4aa99ebfd2c6c706c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Orc/WalkBWD_Orc_Anim.fbx using Guid(3a55b237d214b0a4aa99ebfd2c6c706c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397e104f518de94808e0feb6980aa4dc') in 0.023311 seconds 
+  Import took 0.024977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Orc/WalkLeft_Orc_Anim.fbx
+  artifactKey: Guid(123b8232a5a063f4b95dbcf7b8b2adc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Orc/WalkLeft_Orc_Anim.fbx using Guid(123b8232a5a063f4b95dbcf7b8b2adc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28166cdfac6488404ea03736406f2693') in 0.026728 seconds 
+  Import took 0.028531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Orc/WalkFWD_Orc_Anim.fbx
+  artifactKey: Guid(5272185441641094c896bb46c8fb94fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Orc/WalkFWD_Orc_Anim.fbx using Guid(5272185441641094c896bb46c8fb94fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56b8cdd9cea47c70963239507f5af994') in 0.022694 seconds 
+  Import took 0.024382 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Orc/Dizzy_Orc_Anim.fbx
+  artifactKey: Guid(cc990e79d01442743897983f21a1676a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Orc/Dizzy_Orc_Anim.fbx using Guid(cc990e79d01442743897983f21a1676a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d309d697e5c268d305a2b01653552d') in 0.022301 seconds 
+  Import took 0.023947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Orc/RunFWD_Orc_Anim.fbx
+  artifactKey: Guid(4f83b3353dff6b848be4b7a9d5dd69dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Orc/RunFWD_Orc_Anim.fbx using Guid(4f83b3353dff6b848be4b7a9d5dd69dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be66fd1ec36d4de6172f9b5e697be3bd') in 0.029583 seconds 
+  Import took 0.031220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Orc/Victory_Orc_Anim.fbx
+  artifactKey: Guid(231ecc3a56b7ff546aec2bad54213dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Orc/Victory_Orc_Anim.fbx using Guid(231ecc3a56b7ff546aec2bad54213dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10189afbda52cc9d33ab4349c2a2bf1') in 0.021841 seconds 
+  Import took 0.023475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Orc/WalkRight_Orc_Anim.fbx
+  artifactKey: Guid(f60a9a2f14d4fe9449b2af637f6333fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Orc/WalkRight_Orc_Anim.fbx using Guid(f60a9a2f14d4fe9449b2af637f6333fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b450188833dc6bfa1796dca7bd0fc404') in 0.028258 seconds 
+  Import took 0.029907 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Orc/IdleBattle_Orc_Anim.fbx
+  artifactKey: Guid(a991664efc1fd4e4d950fb4b626c5efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Orc/IdleBattle_Orc_Anim.fbx using Guid(a991664efc1fd4e4d950fb4b626c5efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6739b60e83b35b2ce46aa0393fb021f0') in 0.022780 seconds 
+  Import took 0.025688 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Orc/Die_Orc_Anim.fbx
+  artifactKey: Guid(f8c90f47a8826ed4eb6cfd9d24b805bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Orc/Die_Orc_Anim.fbx using Guid(f8c90f47a8826ed4eb6cfd9d24b805bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90b676afff194445291aa31ba9304c7') in 0.026323 seconds 
+  Import took 0.028049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Orc/Taunting_Orc_Anim.fbx
+  artifactKey: Guid(2b217a830564d7041b383b6255f74005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Orc/Taunting_Orc_Anim.fbx using Guid(2b217a830564d7041b383b6255f74005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559e4420a60cc3ab1c984bb50f103adb') in 0.025066 seconds 
+  Import took 0.026877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000290 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Orc/Attack02_Orc_Anim.fbx
+  artifactKey: Guid(1cfb9aa7426cdbb4b9946fd41a9b1c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Orc/Attack02_Orc_Anim.fbx using Guid(1cfb9aa7426cdbb4b9946fd41a9b1c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7a8a8523ca94af1ea91d43c7d5f6326') in 0.029209 seconds 
+  Import took 0.031062 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.186587 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/Attack01_MP_Anim.fbx
+  artifactKey: Guid(26b827c15f3d06d4bbcce0545bb0aa09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/Attack01_MP_Anim.fbx using Guid(26b827c15f3d06d4bbcce0545bb0aa09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aff54fdd52a869b0703f98897f82a606') in 0.022857 seconds 
+  Import took 0.025758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/GetHit_MP_Anim.fbx
+  artifactKey: Guid(f59cce768b35bd441bdce1d2f19e4c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/GetHit_MP_Anim.fbx using Guid(f59cce768b35bd441bdce1d2f19e4c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70c9d781a8ff354b7c43724c2a0a3fcd') in 0.019457 seconds 
+  Import took 0.021396 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/IdleNormal_MP_Anim.fbx
+  artifactKey: Guid(23b56f592fe0e9749b0bd1b64e950b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/IdleNormal_MP_Anim.fbx using Guid(23b56f592fe0e9749b0bd1b64e950b82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2735bd797503a0378be0b467fca139c') in 0.020177 seconds 
+  Import took 0.021940 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/Victory_MP_Anim.fbx
+  artifactKey: Guid(6578b8242557d3b4c81d70ffccde61b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/Victory_MP_Anim.fbx using Guid(6578b8242557d3b4c81d70ffccde61b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b3e19fb0d18952a4da2115014013506') in 0.020069 seconds 
+  Import took 0.021879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/Attack02_MP_Anim.fbx
+  artifactKey: Guid(eaabf67901e309b4e9de5e3c1fd7b6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/Attack02_MP_Anim.fbx using Guid(eaabf67901e309b4e9de5e3c1fd7b6b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a376e24d0af44950cc24a55390ac165f') in 0.016756 seconds 
+  Import took 0.018609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/WalkRight_MP_Anim.fbx
+  artifactKey: Guid(eb0e63409be4d3d49aa8c8e823300c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/WalkRight_MP_Anim.fbx using Guid(eb0e63409be4d3d49aa8c8e823300c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08f77d92813bdb7381923d164b703a8') in 0.019060 seconds 
+  Import took 0.020788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/IdleBattle_MP_Anim.fbx
+  artifactKey: Guid(dbf5a38d3b6ce0d4c8c90d6d38da2bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/IdleBattle_MP_Anim.fbx using Guid(dbf5a38d3b6ce0d4c8c90d6d38da2bdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e3a19e8bb3f327b2b83ac6a677409a') in 0.016613 seconds 
+  Import took 0.018232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/WalkBack_MP_Anim.fbx
+  artifactKey: Guid(bdf0bc8947941ba4185d9e08918d1b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/WalkBack_MP_Anim.fbx using Guid(bdf0bc8947941ba4185d9e08918d1b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbd89072d96243c7e37d4fd6406e58df') in 0.017856 seconds 
+  Import took 0.019471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/SenseSomethingRT_MP_Anim.fbx
+  artifactKey: Guid(865f527d896350d468fca42ac58d3de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/SenseSomethingRT_MP_Anim.fbx using Guid(865f527d896350d468fca42ac58d3de3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b7f6c7a61f5ce22cdab1094dce29a41') in 0.016958 seconds 
+  Import took 0.018588 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/Run_MP_Anim.fbx
+  artifactKey: Guid(80e6f99994a1c8f4a953552a5ba9d462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/Run_MP_Anim.fbx using Guid(80e6f99994a1c8f4a953552a5ba9d462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a869e344b92ac164d419444f209343dc') in 0.017189 seconds 
+  Import took 0.018845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/Dizzy_MP_Anim.fbx
+  artifactKey: Guid(f9f7ebfe99b062d4a8f3b32a9a3cdec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/Dizzy_MP_Anim.fbx using Guid(f9f7ebfe99b062d4a8f3b32a9a3cdec8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27732679030377f99bd4ea10e39f4cd4') in 0.016902 seconds 
+  Import took 0.018577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/Taunt_MP_Anim.fbx
+  artifactKey: Guid(594109745c87ec5479138653edcfc657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/Taunt_MP_Anim.fbx using Guid(594109745c87ec5479138653edcfc657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cd76115a2ba14a51a731d97b757ffbf') in 0.017350 seconds 
+  Import took 0.018984 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000340 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/Walk_MP_Anim.fbx
+  artifactKey: Guid(9a0418154e44dd345939d58ce3218d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/Walk_MP_Anim.fbx using Guid(9a0418154e44dd345939d58ce3218d62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60785f8e35f4e584e94c186ca866d323') in 0.018500 seconds 
+  Import took 0.020193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/WalkLeft_MP_Anim.fbx
+  artifactKey: Guid(3255f4716a3b8ca4a9e3a60667b27e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/WalkLeft_MP_Anim.fbx using Guid(3255f4716a3b8ca4a9e3a60667b27e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca38be56b1bf99dc7be12db596349b3') in 0.016855 seconds 
+  Import took 0.018522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/Die_MP_Anim.fbx
+  artifactKey: Guid(b7053579097a56743bd975bf164ef63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/Die_MP_Anim.fbx using Guid(b7053579097a56743bd975bf164ef63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20f0e6e5004750435eca0f32f30d7fb5') in 0.017566 seconds 
+  Import took 0.019388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/SenseSomethingST_MP_Anim.fbx
+  artifactKey: Guid(edd08e23e8478e1489d489d86e9d0ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/MonsterPlant/SenseSomethingST_MP_Anim.fbx using Guid(edd08e23e8478e1489d489d86e9d0ada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0daee03886c7fc4cce7b72aeb9ee3b') in 0.016698 seconds 
+  Import took 0.018441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.206842 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Skeleton/Attack01_Skeleton_Anim.fbx
+  artifactKey: Guid(5d004f45041072445bc59fb665be24e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Skeleton/Attack01_Skeleton_Anim.fbx using Guid(5d004f45041072445bc59fb665be24e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d85b3282803e2257f296ff4ca9cae4') in 0.046029 seconds 
+  Import took 0.048980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Skeleton/Taunting_Skeleton_Anim.fbx
+  artifactKey: Guid(1562fdeef446c7c4caa1a5bacdf215a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Skeleton/Taunting_Skeleton_Anim.fbx using Guid(1562fdeef446c7c4caa1a5bacdf215a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03a8efba7844bd4b10d156fd6748819') in 0.035146 seconds 
+  Import took 0.036960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Skeleton/Defense_Skeleton_Anim.fbx
+  artifactKey: Guid(c47a8b550c02e424f83f83c59e02698f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Skeleton/Defense_Skeleton_Anim.fbx using Guid(c47a8b550c02e424f83f83c59e02698f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51c93b7b461b41c75c9275ba49784b9') in 0.033008 seconds 
+  Import took 0.034666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Skeleton/Die_Skeleton_Anim.fbx
+  artifactKey: Guid(947b29ee5c5ffdc4eb8f5686e243bdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Skeleton/Die_Skeleton_Anim.fbx using Guid(947b29ee5c5ffdc4eb8f5686e243bdcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88d51506426c6e8f157e0a24c178fa47') in 0.029848 seconds 
+  Import took 0.031494 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Skeleton/Run_Skeleton_Anim.fbx
+  artifactKey: Guid(f369502db9d786a4e9396e8299af6475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Skeleton/Run_Skeleton_Anim.fbx using Guid(f369502db9d786a4e9396e8299af6475) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721ff89fba9edff80967d0c0e8941193') in 0.029394 seconds 
+  Import took 0.031122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Skeleton/Attack02_Skeleton_Anim.fbx
+  artifactKey: Guid(7e32465a0ad0e4b468ff10729ba8752e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Skeleton/Attack02_Skeleton_Anim.fbx using Guid(7e32465a0ad0e4b468ff10729ba8752e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ec72db82b1753811b587258c616476') in 0.031920 seconds 
+  Import took 0.033575 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Skeleton/IdleNormal_Skeleton_Anim.fbx
+  artifactKey: Guid(90fc4a8be2c7db64b805edc826381353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Skeleton/IdleNormal_Skeleton_Anim.fbx using Guid(90fc4a8be2c7db64b805edc826381353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '243d9471cdd00366a5b71664eaedd2cf') in 0.034267 seconds 
+  Import took 0.036016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Skeleton/WalkBack_Skeleton_Anim.fbx
+  artifactKey: Guid(8c57407c1eeafe64ba8dadbe4d3fe1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Skeleton/WalkBack_Skeleton_Anim.fbx using Guid(8c57407c1eeafe64ba8dadbe4d3fe1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9472f72286bf36a604b0caf22ea81557') in 0.031029 seconds 
+  Import took 0.032816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Skeleton/SenseSomethingRT_Skeleton_Anim.fbx
+  artifactKey: Guid(7339c5ae1bfa0fa49b6753c0d1f970d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Skeleton/SenseSomethingRT_Skeleton_Anim.fbx using Guid(7339c5ae1bfa0fa49b6753c0d1f970d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3012c2c9f91550f9e4242401158e33c') in 0.034055 seconds 
+  Import took 0.035781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Skeleton/SenseSomethingST_Skeleton_Anim.fbx
+  artifactKey: Guid(1adb2ecb3a372c24990511f2e95e44a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Skeleton/SenseSomethingST_Skeleton_Anim.fbx using Guid(1adb2ecb3a372c24990511f2e95e44a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10dc90b531b2ee87e283a84d75701aef') in 0.034290 seconds 
+  Import took 0.035946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Skeleton/SentryWalkFront_Skeleton_Anim.fbx
+  artifactKey: Guid(428377d00aeb85d49a4c7e37c391e074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Skeleton/SentryWalkFront_Skeleton_Anim.fbx using Guid(428377d00aeb85d49a4c7e37c391e074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caf288811688b91de95bd38c21ec61f1') in 0.031219 seconds 
+  Import took 0.032843 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Skeleton/WalkRight_Skeleton_Anim.fbx
+  artifactKey: Guid(8decdb3ea9a545248b9bb8646ecd5b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Skeleton/WalkRight_Skeleton_Anim.fbx using Guid(8decdb3ea9a545248b9bb8646ecd5b7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a54b74c5327fa87e5468ac03cb1c3e8') in 0.029329 seconds 
+  Import took 0.030956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Skeleton/Dizzy_Skeleton_Anim.fbx
+  artifactKey: Guid(b0bc0540230da554e8b2e369a41b5004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Skeleton/Dizzy_Skeleton_Anim.fbx using Guid(b0bc0540230da554e8b2e369a41b5004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09b847a3260da0533390c83c3508235b') in 0.032068 seconds 
+  Import took 0.033687 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000321 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Skeleton/GetHit_Skeleton_Anim.fbx
+  artifactKey: Guid(e9a51b24e69edd4449c0f50adb52af2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Skeleton/GetHit_Skeleton_Anim.fbx using Guid(e9a51b24e69edd4449c0f50adb52af2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b38983953941fa27783c2374aa36f6a2') in 0.029955 seconds 
+  Import took 0.031612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Skeleton/IdleBattle_Skeleton_Anim.fbx
+  artifactKey: Guid(6f51ec9be4e8984459d3b2a42ac6fecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Skeleton/IdleBattle_Skeleton_Anim.fbx using Guid(6f51ec9be4e8984459d3b2a42ac6fecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3b604509b61f6a0df15483991f7d321') in 0.029305 seconds 
+  Import took 0.030951 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Skeleton/WalkFront_Skeleton_Anim.fbx
+  artifactKey: Guid(3f07d83991adcba4f94d3a8a33f4e036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Skeleton/WalkFront_Skeleton_Anim.fbx using Guid(3f07d83991adcba4f94d3a8a33f4e036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29b7158142318aba9a13b3b715abbe58') in 0.028818 seconds 
+  Import took 0.030484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Skeleton/WalkLeft_Skeleton_Anim.fbx
+  artifactKey: Guid(ea5bfe163029619488e04d527cf69d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Skeleton/WalkLeft_Skeleton_Anim.fbx using Guid(ea5bfe163029619488e04d527cf69d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb5af976729fe2102133bb32329973f') in 0.029765 seconds 
+  Import took 0.031453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Skeleton/DefenseGetHit_Skeleton_Anim.fbx
+  artifactKey: Guid(1f454fd6ecd77d544b2a3b8dbaaede21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Skeleton/DefenseGetHit_Skeleton_Anim.fbx using Guid(1f454fd6ecd77d544b2a3b8dbaaede21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89d1794179e82f946d6fe4db4d0ef1a2') in 0.028448 seconds 
+  Import took 0.030312 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animations/Skeleton/Victory_Skeleton_Anim.fbx
+  artifactKey: Guid(72493e5861813d047b117f9b70685aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animations/Skeleton/Victory_Skeleton_Anim.fbx using Guid(72493e5861813d047b117f9b70685aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '712b57b79d04f4171d75ae698b3f65e6') in 0.031840 seconds 
+  Import took 0.033820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 150.269635 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/PolyArtMaskTint.shader
+  artifactKey: Guid(ceecd01bfbd37244a87e860f0f1d9ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/PolyArtMaskTint.shader using Guid(ceecd01bfbd37244a87e860f0f1d9ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f534d6218900066c9d41370f0fa21db7') in 0.163988 seconds 
+  Import took 0.166072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.417036 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/PolyArtMaskTint.shader
+  artifactKey: Guid(ceecd01bfbd37244a87e860f0f1d9ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/PolyArtMaskTint.shader using Guid(ceecd01bfbd37244a87e860f0f1d9ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f534d6218900066c9d41370f0fa21db7') in 0.002007 seconds 
+  Import took 0.003995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.643064 seconds.
+  path: Assets/RPG Monster Wave Polyart/Materials/PolyartDefault.mat
+  artifactKey: Guid(8d06ef433d7c35546890f0502b45353b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Materials/PolyartDefault.mat using Guid(8d06ef433d7c35546890f0502b45353b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81393bf3277b77cf3288e5b87dcffc3b') in 0.164362 seconds 
+  Import took 0.166721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/RPG Monster Wave Polyart/Materials/PolyArtMaskTint03.mat
+  artifactKey: Guid(7f336122ad7984948853076941abf85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Materials/PolyArtMaskTint03.mat using Guid(7f336122ad7984948853076941abf85e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc93396832c12b1486f989bc9d274df') in 0.021075 seconds 
+  Import took 0.022639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000307 seconds.
+  path: Assets/RPG Monster Wave Polyart/Materials/PolyartDefault.mat
+  artifactKey: Guid(8d06ef433d7c35546890f0502b45353b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Materials/PolyartDefault.mat using Guid(8d06ef433d7c35546890f0502b45353b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81393bf3277b77cf3288e5b87dcffc3b') in 0.007593 seconds 
+  Import took 0.009139 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/RPG Monster Wave Polyart/Materials/PolyArtMaskTint02.mat
+  artifactKey: Guid(98a94172eea4b8c4dbb1114bafe7814a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Materials/PolyArtMaskTint02.mat using Guid(98a94172eea4b8c4dbb1114bafe7814a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6836f65b4dc595ef7a03cf81f151eba3') in 0.007848 seconds 
+  Import took 0.014231 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003802 seconds.
+  path: Assets/RPG Monster Wave Polyart/Materials/Skybox_Mat.mat
+  artifactKey: Guid(06766a6624e8d6046be3a173082e5815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Materials/Skybox_Mat.mat using Guid(06766a6624e8d6046be3a173082e5815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f20ae2715e9468ebd9609f29c04b8b5') in 0.053859 seconds 
+  Import took 0.055432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/RPG Monster Wave Polyart/Materials/PolyArtMaskTint01.mat
+  artifactKey: Guid(797934232287e6b429183d99cbae3ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Materials/PolyArtMaskTint01.mat using Guid(797934232287e6b429183d99cbae3ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef4cb60766c7393b1d8fb6962dfd75c') in 0.008542 seconds 
+  Import took 0.010053 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.332373 seconds.
+  path: Assets/RPG Monster Wave Polyart/Textures/PolyartMaskTintTex.png
+  artifactKey: Guid(f009b54215c5e824fb712648c798f53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Textures/PolyartMaskTintTex.png using Guid(f009b54215c5e824fb712648c798f53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d877adab2e47ea6ee3ff965dfd63da') in 0.508779 seconds 
+  Import took 0.510866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/RPG Monster Wave Polyart/Textures/MaskTex.png
+  artifactKey: Guid(04cb1e5ad8438704e9cb3cd35a1aba67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Textures/MaskTex.png using Guid(04cb1e5ad8438704e9cb3cd35a1aba67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e4ea8ef43a64613c799b339f309cd2') in 0.006202 seconds 
+  Import took 0.007728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/RPG Monster Wave Polyart/Textures/PolyartMaskTintTex.png
+  artifactKey: Guid(f009b54215c5e824fb712648c798f53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Textures/PolyartMaskTintTex.png using Guid(f009b54215c5e824fb712648c798f53a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9d877adab2e47ea6ee3ff965dfd63da') in 0.003868 seconds 
+  Import took 0.005454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009772 seconds.
+  path: Assets/RPG Monster Wave Polyart/Textures/MaskTex.png
+  artifactKey: Guid(04cb1e5ad8438704e9cb3cd35a1aba67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Textures/MaskTex.png using Guid(04cb1e5ad8438704e9cb3cd35a1aba67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e4ea8ef43a64613c799b339f309cd2') in 0.004197 seconds 
+  Import took 0.005971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 198.841004 seconds.
+  path: Assets/RPG Monster Wave Polyart/Textures/PolyartDefaultTex.png
+  artifactKey: Guid(14fd63df00626ac4da3580ba86d9c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Textures/PolyartDefaultTex.png using Guid(14fd63df00626ac4da3580ba86d9c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5e510713a80e1f09061d334b75c5d0') in 0.026711 seconds 
+  Import took 0.037458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023640 seconds.
+  path: Assets/RPG Monster Wave Polyart/Textures/PolyartDefaultTex.png
+  artifactKey: Guid(14fd63df00626ac4da3580ba86d9c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Textures/PolyartDefaultTex.png using Guid(14fd63df00626ac4da3580ba86d9c997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb5e510713a80e1f09061d334b75c5d0') in 0.004695 seconds 
+  Import took 0.006662 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002097 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.343 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1387 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.0 MB.
+System memory in use after: 186.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1876.
+Total: 1.329792 ms (FindLiveObjects: 0.105625 ms CreateObjectMapping: 0.026667 ms MarkObjects: 1.142791 ms  DeleteObjects: 0.054083 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001697 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.142 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1388 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 186.2 MB.
+System memory in use after: 186.3 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1880.
+Total: 1.343834 ms (FindLiveObjects: 0.093791 ms CreateObjectMapping: 0.026958 ms MarkObjects: 1.165917 ms  DeleteObjects: 0.056125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 208.667089 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/monster.shader
+  artifactKey: Guid(ceecd01bfbd37244a87e860f0f1d9ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/monster.shader using Guid(ceecd01bfbd37244a87e860f0f1d9ae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36e09f1c3f1399854e4aecda4779945e') in 0.149876 seconds 
+  Import took 0.219072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.155981 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/monster 1.shader
+  artifactKey: Guid(4b24eb5c4918849acad708f0f7f4fbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/monster 1.shader using Guid(4b24eb5c4918849acad708f0f7f4fbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1e1f901348e523472a116c856ddd8e7') in 0.005268 seconds 
+  Import took 0.007644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.350115 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/hero.shader
+  artifactKey: Guid(4b24eb5c4918849acad708f0f7f4fbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/hero.shader using Guid(4b24eb5c4918849acad708f0f7f4fbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e6d47cd3b7fedf241408eb1afdfcce2') in 0.010931 seconds 
+  Import took 0.014900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.150614 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/hero.shader
+  artifactKey: Guid(4b24eb5c4918849acad708f0f7f4fbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/hero.shader using Guid(4b24eb5c4918849acad708f0f7f4fbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efa37460db1abca58bb179b7805fcd9') in 0.024628 seconds 
+  Import took 0.044686 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.479388 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/rt.renderTexture
+  artifactKey: Guid(f357a99d14a4445b8827cc4f7736008c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/rt.renderTexture using Guid(f357a99d14a4445b8827cc4f7736008c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e12015b071f5a1032c6d7f2b1dc664c') in 0.414244 seconds 
+  Import took 0.416218 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.629955 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders
+  artifactKey: Guid(07d1527261447ed4d817bc53b80eb967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders using Guid(07d1527261447ed4d817bc53b80eb967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a443ea7341533d7591ead921f7d62c') in 0.001300 seconds 
+  Import took 0.003498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000719 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders
+  artifactKey: Guid(07d1527261447ed4d817bc53b80eb967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders using Guid(07d1527261447ed4d817bc53b80eb967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a443ea7341533d7591ead921f7d62c') in 0.000676 seconds 
+  Import took 0.002609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.926491 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/CameraRT.cs
+  artifactKey: Guid(542b8472576d34762850cc412d01c197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/CameraRT.cs using Guid(542b8472576d34762850cc412d01c197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68e309e5b0f96c247443e81be5578b9d') in 0.252232 seconds 
+  Import took 0.254183 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002077 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.273 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.6 MB.
+System memory in use after: 195.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1886.
+Total: 1.708125 ms (FindLiveObjects: 0.130166 ms CreateObjectMapping: 0.029084 ms MarkObjects: 1.179333 ms  DeleteObjects: 0.368709 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002090 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.572 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 195.7 MB.
+System memory in use after: 195.3 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1889.
+Total: 1.601083 ms (FindLiveObjects: 0.122333 ms CreateObjectMapping: 0.027083 ms MarkObjects: 1.064000 ms  DeleteObjects: 0.386959 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002146 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.418 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.0 MB.
+System memory in use after: 195.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1892.
+Total: 1.973333 ms (FindLiveObjects: 0.110417 ms CreateObjectMapping: 0.026208 ms MarkObjects: 1.430792 ms  DeleteObjects: 0.405166 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 329.333886 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/split.shader
+  artifactKey: Guid(07342ee322b9a42db9ee27a2a17c1052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/split.shader using Guid(07342ee322b9a42db9ee27a2a17c1052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53af90c7a0d2656c6439708b9058ebf5') in 0.032062 seconds 
+  Import took 0.034092 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076367 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/split.shader
+  artifactKey: Guid(07342ee322b9a42db9ee27a2a17c1052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/split.shader using Guid(07342ee322b9a42db9ee27a2a17c1052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53af90c7a0d2656c6439708b9058ebf5') in 0.001768 seconds 
+  Import took 0.003605 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.824679 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/split.shader
+  artifactKey: Guid(07342ee322b9a42db9ee27a2a17c1052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/split.shader using Guid(07342ee322b9a42db9ee27a2a17c1052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d7fe0db559e6aff02b8d2406f4d4b89') in 0.007122 seconds 
+  Import took 0.017099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.249355 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/split.shader
+  artifactKey: Guid(07342ee322b9a42db9ee27a2a17c1052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/split.shader using Guid(07342ee322b9a42db9ee27a2a17c1052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d8e90ebecb8fd8fe3e73b97c602c149') in 0.004297 seconds 
+  Import took 0.009307 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005564 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.376 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.3 MB.
+System memory in use after: 195.8 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1895.
+Total: 1.686125 ms (FindLiveObjects: 0.135208 ms CreateObjectMapping: 0.026458 ms MarkObjects: 1.090791 ms  DeleteObjects: 0.432750 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 138.166533 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/preview.mat
+  artifactKey: Guid(7c0ff93559a364290a6edb631d612805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/preview.mat using Guid(7c0ff93559a364290a6edb631d612805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a8a54ca1b1670aa931dc44d509612c7') in 0.209343 seconds 
+  Import took 0.211554 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002738 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.347 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.5 MB.
+System memory in use after: 196.0 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1899.
+Total: 2.047250 ms (FindLiveObjects: 0.136500 ms CreateObjectMapping: 0.050750 ms MarkObjects: 1.414917 ms  DeleteObjects: 0.444292 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 36.681310 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/preview.mat
+  artifactKey: Guid(7c0ff93559a364290a6edb631d612805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/preview.mat using Guid(7c0ff93559a364290a6edb631d612805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6a962e2e628aa68588d9bd249b9e87') in 0.188263 seconds 
+  Import took 0.190339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/rt.renderTexture
+  artifactKey: Guid(f357a99d14a4445b8827cc4f7736008c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/rt.renderTexture using Guid(f357a99d14a4445b8827cc4f7736008c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7959fe057c49a2c7bcffebeb277c88') in 0.024736 seconds 
+  Import took 0.026330 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002956 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.036 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.7 MB.
+System memory in use after: 196.2 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1903.
+Total: 2.121792 ms (FindLiveObjects: 0.148750 ms CreateObjectMapping: 0.056458 ms MarkObjects: 1.461125 ms  DeleteObjects: 0.454333 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001015 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.208 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.9 MB.
+System memory in use after: 196.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1906.
+Total: 1.717209 ms (FindLiveObjects: 0.099958 ms CreateObjectMapping: 0.028917 ms MarkObjects: 1.108917 ms  DeleteObjects: 0.478583 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 338.953562 seconds.
+  path: Assets/RPG Monster Wave Polyart/Materials/Stage.mat
+  artifactKey: Guid(809e1de97d0710c40a3770a01457172a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Materials/Stage.mat using Guid(809e1de97d0710c40a3770a01457172a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b6f2174ef32fde743e20ca1db10c76') in 0.264056 seconds 
+  Import took 0.266339 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003463 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.120 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 197.5 MB.
+System memory in use after: 197.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1911.
+Total: 1.590958 ms (FindLiveObjects: 0.091000 ms CreateObjectMapping: 0.027000 ms MarkObjects: 1.089875 ms  DeleteObjects: 0.382500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6.524546 seconds.
+  path: Assets/RPG Monster Wave Polyart/Materials/me.mat
+  artifactKey: Guid(5cde5ab8acbf14a7ea201703a47cd5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Materials/me.mat using Guid(5cde5ab8acbf14a7ea201703a47cd5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd7fd3dafc5e3ae6812f24dbd5b98038') in 0.171387 seconds 
+  Import took 0.173329 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.913604 seconds.
+  path: Assets/RPG Monster Wave Polyart/Materials/me.mat
+  artifactKey: Guid(5cde5ab8acbf14a7ea201703a47cd5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Materials/me.mat using Guid(5cde5ab8acbf14a7ea201703a47cd5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4b9c0f50a8c770489e5d43d28d73ee') in 0.028427 seconds 
+  Import took 0.034150 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003170 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.303 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 197.9 MB.
+System memory in use after: 198.0 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1916.
+Total: 1.346000 ms (FindLiveObjects: 0.142500 ms CreateObjectMapping: 0.027500 ms MarkObjects: 1.105750 ms  DeleteObjects: 0.069500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 70.395314 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/PostRender.cs
+  artifactKey: Guid(e4e85b32e5ffb44aea35b5ea6f77d4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/PostRender.cs using Guid(e4e85b32e5ffb44aea35b5ea6f77d4ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe77779158421d4293a34ce6b955b8aa') in 0.007642 seconds 
+  Import took 0.009643 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000961 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.226 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1391 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.1 MB.
+System memory in use after: 198.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1920.
+Total: 1.391000 ms (FindLiveObjects: 0.098792 ms CreateObjectMapping: 0.026792 ms MarkObjects: 1.200625 ms  DeleteObjects: 0.064083 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 72.687932 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/bg.shader
+  artifactKey: Guid(35a04bc82c1a145dab070d03fe049bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/bg.shader using Guid(35a04bc82c1a145dab070d03fe049bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c85ef4b0c94be0987b7dfd73fde83d') in 0.039449 seconds 
+  Import took 0.041757 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011404 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/bg.shader
+  artifactKey: Guid(35a04bc82c1a145dab070d03fe049bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/bg.shader using Guid(35a04bc82c1a145dab070d03fe049bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c85ef4b0c94be0987b7dfd73fde83d') in 0.002235 seconds 
+  Import took 0.004167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.527606 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/bg.shader
+  artifactKey: Guid(35a04bc82c1a145dab070d03fe049bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/bg.shader using Guid(35a04bc82c1a145dab070d03fe049bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87601121b8965b44832f5429e6152dce') in 0.028788 seconds 
+  Import took 0.077452 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.712205 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/bg.shader
+  artifactKey: Guid(35a04bc82c1a145dab070d03fe049bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/bg.shader using Guid(35a04bc82c1a145dab070d03fe049bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efeb257bcfedc769ac36b7b5a1d54139') in 0.002554 seconds 
+  Import took 0.004739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.049164 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/bloom.shader
+  artifactKey: Guid(2be143d746b854dd4a454895e15b795d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/bloom.shader using Guid(2be143d746b854dd4a454895e15b795d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e0e6521271704cf24dedff7555d272') in 0.006120 seconds 
+  Import took 0.009921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.953001 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/post.shader
+  artifactKey: Guid(2be143d746b854dd4a454895e15b795d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/post.shader using Guid(2be143d746b854dd4a454895e15b795d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ac1cab5220ebb00e355388034865623') in 0.002181 seconds 
+  Import took 0.004692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.750808 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/post.shader
+  artifactKey: Guid(2be143d746b854dd4a454895e15b795d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/post.shader using Guid(2be143d746b854dd4a454895e15b795d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990d0e39abb29f875ec4818c3d2fc827') in 0.004808 seconds 
+  Import took 0.008065 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.279696 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/post.shader
+  artifactKey: Guid(2be143d746b854dd4a454895e15b795d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/post.shader using Guid(2be143d746b854dd4a454895e15b795d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01b00a290acc744ad52c668ebddc24ab') in 0.004756 seconds 
+  Import took 0.009546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.642581 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/post.shader
+  artifactKey: Guid(2be143d746b854dd4a454895e15b795d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/post.shader using Guid(2be143d746b854dd4a454895e15b795d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a72149e8a91e2ae84298de0431822ba') in 0.104823 seconds 
+  Import took 0.112246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016565 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/post.shader
+  artifactKey: Guid(2be143d746b854dd4a454895e15b795d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/post.shader using Guid(2be143d746b854dd4a454895e15b795d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a72149e8a91e2ae84298de0431822ba') in 0.006497 seconds 
+  Import took 0.008940 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002044 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.526 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.5 MB.
+System memory in use after: 198.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1923.
+Total: 1.409416 ms (FindLiveObjects: 0.174125 ms CreateObjectMapping: 0.025875 ms MarkObjects: 1.112750 ms  DeleteObjects: 0.095583 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001803 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.314 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.7 MB.
+System memory in use after: 198.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1926.
+Total: 1.827000 ms (FindLiveObjects: 0.131250 ms CreateObjectMapping: 0.026250 ms MarkObjects: 1.571875 ms  DeleteObjects: 0.096916 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002129 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.374 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 198.9 MB.
+System memory in use after: 198.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1929.
+Total: 1.843000 ms (FindLiveObjects: 0.135875 ms CreateObjectMapping: 0.028125 ms MarkObjects: 1.568958 ms  DeleteObjects: 0.109167 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001671 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.332 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 199.1 MB.
+System memory in use after: 199.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1932.
+Total: 1.597459 ms (FindLiveObjects: 0.107791 ms CreateObjectMapping: 0.045167 ms MarkObjects: 1.353375 ms  DeleteObjects: 0.090208 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001841 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.456 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 199.3 MB.
+System memory in use after: 199.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1935.
+Total: 1.496208 ms (FindLiveObjects: 0.150459 ms CreateObjectMapping: 0.033583 ms MarkObjects: 1.213916 ms  DeleteObjects: 0.097416 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002346 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.361 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 199.5 MB.
+System memory in use after: 199.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1938.
+Total: 1.425083 ms (FindLiveObjects: 0.150375 ms CreateObjectMapping: 0.028583 ms MarkObjects: 1.142083 ms  DeleteObjects: 0.103292 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002189 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.388 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 199.7 MB.
+System memory in use after: 199.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1941.
+Total: 1.354541 ms (FindLiveObjects: 0.138959 ms CreateObjectMapping: 0.026209 ms MarkObjects: 1.095458 ms  DeleteObjects: 0.093042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002175 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.624 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 199.9 MB.
+System memory in use after: 199.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1944.
+Total: 1.512375 ms (FindLiveObjects: 0.143334 ms CreateObjectMapping: 0.029375 ms MarkObjects: 1.215750 ms  DeleteObjects: 0.123125 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 687.176884 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/post.shader
+  artifactKey: Guid(2be143d746b854dd4a454895e15b795d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/post.shader using Guid(2be143d746b854dd4a454895e15b795d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63e12bdebf96f3c6b329c06e3e3219e1') in 0.082392 seconds 
+  Import took 0.092933 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001982 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.424 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.1 MB.
+System memory in use after: 200.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1947.
+Total: 1.407791 ms (FindLiveObjects: 0.155750 ms CreateObjectMapping: 0.026375 ms MarkObjects: 1.126625 ms  DeleteObjects: 0.098250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008804 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.347 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.3 MB.
+System memory in use after: 200.3 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1950.
+Total: 1.400959 ms (FindLiveObjects: 0.164708 ms CreateObjectMapping: 0.027417 ms MarkObjects: 1.102458 ms  DeleteObjects: 0.105625 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002794 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.456 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.5 MB.
+System memory in use after: 200.5 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1953.
+Total: 1.460958 ms (FindLiveObjects: 0.156458 ms CreateObjectMapping: 0.028667 ms MarkObjects: 1.168958 ms  DeleteObjects: 0.105833 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 286.876042 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/rt.renderTexture
+  artifactKey: Guid(f357a99d14a4445b8827cc4f7736008c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/rt.renderTexture using Guid(f357a99d14a4445b8827cc4f7736008c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be8f0a1aeac43deae975ca13c326ac8') in 0.081575 seconds 
+  Import took 0.083532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.806441 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/rt.renderTexture
+  artifactKey: Guid(f357a99d14a4445b8827cc4f7736008c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/rt.renderTexture using Guid(f357a99d14a4445b8827cc4f7736008c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be8f0a1aeac43deae975ca13c326ac8') in 0.015544 seconds 
+  Import took 0.017425 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004552 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.289 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.7 MB.
+System memory in use after: 200.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1957.
+Total: 1.359875 ms (FindLiveObjects: 0.136667 ms CreateObjectMapping: 0.027834 ms MarkObjects: 1.104833 ms  DeleteObjects: 0.089708 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002949 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.212 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 200.9 MB.
+System memory in use after: 200.9 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1960.
+Total: 1.345916 ms (FindLiveObjects: 0.094916 ms CreateObjectMapping: 0.027417 ms MarkObjects: 1.133750 ms  DeleteObjects: 0.088916 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 104.881111 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/bg.shader
+  artifactKey: Guid(35a04bc82c1a145dab070d03fe049bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/bg.shader using Guid(35a04bc82c1a145dab070d03fe049bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5be1a3e3f017260d7e4cd30092dd892') in 0.019762 seconds 
+  Import took 0.021850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005489 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/bg.shader
+  artifactKey: Guid(35a04bc82c1a145dab070d03fe049bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/bg.shader using Guid(35a04bc82c1a145dab070d03fe049bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5be1a3e3f017260d7e4cd30092dd892') in 0.001746 seconds 
+  Import took 0.003358 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002812 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.116 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 201.1 MB.
+System memory in use after: 201.1 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 1963.
+Total: 1.357000 ms (FindLiveObjects: 0.103083 ms CreateObjectMapping: 0.028625 ms MarkObjects: 1.137791 ms  DeleteObjects: 0.086750 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 9.517574 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/bg.mat
+  artifactKey: Guid(8c738be7ecd3043528d670725deecfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/bg.mat using Guid(8c738be7ecd3043528d670725deecfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f77426a646cb00668e354c72d2c2975') in 0.166844 seconds 
+  Import took 0.168845 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003369 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.422 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1393 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 201.3 MB.
+System memory in use after: 201.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1968.
+Total: 1.467000 ms (FindLiveObjects: 0.131167 ms CreateObjectMapping: 0.028750 ms MarkObjects: 1.200083 ms  DeleteObjects: 0.105875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003607 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.567 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 201.4 MB.
+System memory in use after: 201.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1971.
+Total: 1.573583 ms (FindLiveObjects: 0.173125 ms CreateObjectMapping: 0.028792 ms MarkObjects: 1.261916 ms  DeleteObjects: 0.108709 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003258 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.478 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 201.6 MB.
+System memory in use after: 201.6 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1974.
+Total: 1.374875 ms (FindLiveObjects: 0.131208 ms CreateObjectMapping: 0.027709 ms MarkObjects: 1.123583 ms  DeleteObjects: 0.091709 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 423.383951 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/download.jpg
+  artifactKey: Guid(f4b4853b5139744caa141766f43cf2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/download.jpg using Guid(f4b4853b5139744caa141766f43cf2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '143f13875a3a5adb2d2a5f386dba86b1') in 0.723693 seconds 
+  Import took 0.811523 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003425 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.674 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.1 MB.
+System memory in use after: 206.1 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1977.
+Total: 1.480750 ms (FindLiveObjects: 0.163333 ms CreateObjectMapping: 0.033292 ms MarkObjects: 1.190084 ms  DeleteObjects: 0.093250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000942 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.141 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.3 MB.
+System memory in use after: 206.3 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1980.
+Total: 1.298458 ms (FindLiveObjects: 0.103125 ms CreateObjectMapping: 0.026875 ms MarkObjects: 1.095000 ms  DeleteObjects: 0.072958 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 137.721375 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/download-1.jpg
+  artifactKey: Guid(fde39d60b27324c32b0adf906915abb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/download-1.jpg using Guid(fde39d60b27324c32b0adf906915abb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9eea6bc45f5cc426c506abb8bd8375c') in 0.073817 seconds 
+  Import took 0.075557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.461634 seconds.
+  path: Assets/RPG Monster Wave Polyart/Shaders/bg.mat
+  artifactKey: Guid(8c738be7ecd3043528d670725deecfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Shaders/bg.mat using Guid(8c738be7ecd3043528d670725deecfdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9468b7f9dafb2061e990eebc9eee4004') in 0.178520 seconds 
+  Import took 0.192104 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003162 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.355 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.5 MB.
+System memory in use after: 206.5 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1984.
+Total: 1.465375 ms (FindLiveObjects: 0.141333 ms CreateObjectMapping: 0.038375 ms MarkObjects: 1.196292 ms  DeleteObjects: 0.088542 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012670 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.293 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.7 MB.
+System memory in use after: 206.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1987.
+Total: 1.412167 ms (FindLiveObjects: 0.132208 ms CreateObjectMapping: 0.029042 ms MarkObjects: 1.155875 ms  DeleteObjects: 0.094250 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001997 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.469 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1392 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.9 MB.
+System memory in use after: 206.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 1990.
+Total: 1.471667 ms (FindLiveObjects: 0.212041 ms CreateObjectMapping: 0.029458 ms MarkObjects: 1.134375 ms  DeleteObjects: 0.094959 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1730.049497 seconds.
+  path: Assets/RPG Monster Wave Polyart/Animators/Orc.controller
+  artifactKey: Guid(340e7c7778ff6b24ebd48e32ff48a690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RPG Monster Wave Polyart/Animators/Orc.controller using Guid(340e7c7778ff6b24ebd48e32ff48a690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d16de1c4e7fb25f001a360dfe5c60f') in 0.427547 seconds 
+  Import took 0.482084 seconds .
+
